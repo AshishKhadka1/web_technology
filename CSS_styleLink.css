@@ -1,0 +1,38 @@
+.first{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(167, 217, 167);
+    padding: 20px;
+    box-sizing: border-box;
+}   
+.second{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(158, 164, 197);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.third{
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.fourth{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(85, 165, 74);
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.fifth{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(185, 89, 190);
+    padding: 20px;
+    box-sizing: border-box;
+
+}

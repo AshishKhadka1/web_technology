@@ -1,0 +1,31 @@
+<bookstore>
+
+  <book category="Horror">
+    <title lang="English">Recurring Dream</title>
+    <author>Prasanga pokhrel</author>
+    <year>2002</year>
+    <price>30.00</price>
+  </book>
+
+  <book category="children">
+    <title lang="English">Rhymes</title>
+    <author>Kshitiz Niroula</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+
+  <book category="Romance">
+    <title lang="English">Romeo and Juliet</title>
+    <author>Rakesh Niroula</author>
+    <year>2003</year>
+    <price>49.99</price>
+  </book>
+
+  <book category="web">
+    <title lang="English">HTML,CSS AND XML</title>
+    <author>Sirash Rai</author>
+    <year>2003</year>
+    <price>90.95</price>
+  </book>
+
+</bookstore>
