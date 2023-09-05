@@ -1,0 +1,13 @@
+<college>
+    <student>
+        <firstname>Ashish</firstname>
+        <lastname>Khadka</lastname>
+        <contact>9810554925</contact>
+        <email>khadkaashish123@gmail.com</email>
+        <address>
+            <city>Biratchowk</city>
+            <state>province-1</state>
+            <pin>25600</pin>
+        </address>
+     </student>
+</college>

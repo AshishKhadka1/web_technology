@@ -1,0 +1,21 @@
+<college>
+    <student>
+      <studentName>
+        <firstName>Ashish</firstName>
+        <lastName>Khadka</lastName>
+      </studentName>
+      <major>BCA</major>
+      <coursesEnrolled>Bachelor</coursesEnrolled>
+      <AcademicStanding>Bachelor</AcademicStanding>
+      <personalInfo>
+        <phoneNumber>9810554925</phoneNumber>
+        <address>
+            <city>Biratchowk</city>
+            <state>province-1</state>
+            <pin>25600</pin>
+        </address>
+        <email>khadkaashish123@gmail.com</email>
+      </personalInfo>
+
+    </student>
+</college>
