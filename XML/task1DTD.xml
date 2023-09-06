@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>Ashish khadka</name>
+        <address type="permanent">123 Main Street, City1, State1, ZIP1</address>
+        <address type="temporary">456 Temporary Road, City2, State2, ZIP2</address>
+        <phone>1234567890</phone>
+        <website>http://www.ashishkkhadka.com</website>
+    </student>
+    <student>
+        <name>prasanga pokhrel</name>
+        <address type="permanent">789 Elm Avenue, City3, State3, ZIP3</address>
+        <phone>9876543210</phone>
+        <website>http://www.prasangapokhrel.com</website>
+    </student>
+</students>
