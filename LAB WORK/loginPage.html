@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Sign In</title>
+    <style>
+
+    .z{
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    }
+    .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #884596;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    color: rgb(255, 255, 20);
+}
+
+
+    </style>
+</head>
+<body>
+
+  <div class="z">
+    <div class="container">
+        <form class="sign-in-form">
+            <h2>Login Form</h2><br>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Sign In</button>
+            <p class="message">Forgot your password? <a href="#">click here</a></p>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
