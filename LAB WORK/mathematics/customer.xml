@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+    <customer>
+        <customerID>1</customerID>
+        <firstName>Ashish</firstName>
+        <lastName>Khadka</lastName>
+        <email>khadkaashish50@gmail.com</email>
+        <phone>9810554925</phone>
+        <address>
+            <street>buddhabarel</street>
+            <city>sundar-haraincha</city>
+            <state>province  no. 1</state>
+            <zipCode>96500</zipCode>
+        </address>
+    </customer>
+    <customer>
+        <customerID>2</customerID>
+        <firstName>Jane</firstName>
+        <lastName>Smith</lastName>
+        <email>jane.smith@gmail.com</email>
+        <phone>987-654-3210</phone>
+        <address>
+            <street>456 Elm St</street>
+            <city>Los Angeles</city>
+            <state>CA</state>
+            <zipCode>90001</zipCode>
+        </address>
+    </customer>
+</customers>
