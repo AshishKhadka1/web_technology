@@ -1,0 +1,22 @@
+<!ELEMENT bank (customer+, account+, employee+)>
+
+<!ELEMENT customer (customerId, name, address)>
+
+<!ELEMENT customerId (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+<!ELEMENT account (accountId, branchId, customerId, accountType, balance)>
+
+<!ELEMENT accountId (#PCDATA)>
+<!ELEMENT branchId (#PCDATA)>
+<!ELEMENT accountType (#PCDATA)>
+<!ELEMENT balance (#PCDATA)>
+
+<!ELEMENT employee (empId, name, designation, DOJ, salary, address)>
+
+<!ELEMENT empId (#PCDATA)>
+<!ELEMENT designation (#PCDATA)>
+<!ELEMENT DOJ (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
