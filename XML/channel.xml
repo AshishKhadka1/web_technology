@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- <!DOCTYPE root_element(TVSCHEDULE) SYSTEM "filename.dtd">-->
+<!DOCTYPE TVSCHEDULE [
+<!ELEMENT TVSCHEDULE (channel+)>
+<!ELEMENT channel (banner, day+)>
+<!ELEMENT banner (#PCDATA)>
+<!ELEMENT day (date, (holiday | programslot)+)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT holiday (#PCDATA)>
+<!ELEMENT programslot (Time, Title, Description?)>
+<!ELEMENT Time (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ATTLIST TVSCHEDULE Name CDATA #REQUIRED>
+<!ATTLIST channel Chan CDATA #REQUIRED>
+<!ATTLIST programslot vtr CDATA #IMPLIED>
+<!ATTLIST Title
+Rating CDATA #IMPLIED
+Language CDATA #IMPLIED
+>
+]>
+
+<TVSCHEDULE Name="NET TV">
+    <channel Chan="MOVIES">
+            <banner>HBO</banner>
+            <day>
+                <date>2030/12/12</date>
+                    <holiday>saturday</holiday>
+                
+                
+                <programslot>
+                    <Time>12:00</Time>
+                    <Title>kabi khusi kabi gum</Title>
+                </programslot>
+
+            </day>
+            <day>
+                <date>2031/12/12</date>
+                <holiday>monday</holiday>
+                <programslot>
+                    <Time>12:00</Time>
+                    <Title>sadhi meh jarur ahana</Title>
+                </programslot>
+            </day>
+
+
+    </channel>
+
+    </channel>
+</TVSCHEDULE>
