@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college xmlns="www.subash.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="www.subash.com/ collegedtd.xsd">
+    <student>
+        <name>Ashish khadka</name>
+        <address>haraincha</address>
+        <phone>9810554925</phone>
+    </student>
+    <subject>
+        <bca>math</bca>
+        <bsw>social</bsw>
+    </subject>
+</college>
