@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<college xmlns="www.subash.com"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="www.subash.com/ collegedtd.xsd">
+<college>
     <student>
         <name>Ashish khadka</name>
         <address>haraincha</address>
