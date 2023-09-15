@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ 
+  <xs:element name="TU">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Employee" type="EmployeeType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="EmployeeType">
+    <xs:sequence>
+      <xs:element name="post">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="5"></xs:minLength> 
+                <xs:maxLength value="8"></xs:maxLength>            
+            </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+
+      <xs:element name="salary">
+      <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                
+                <xs:minInclusive value="25000"/>
+                <xs:maxInclusive value="50000"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+
+      <xs:element name="Gender">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="Male | Female | Othes"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+
+      <xs:element name="Username">
+        <xs:simpleType>
+            <xs:restriction base="xs:string"> 
+                <xs:minLength value="8"></xs:minLength>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+
+      <xs:element name="Password">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[Aa-zZ]{8}"></xs:pattern>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+       
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
