@@ -52,7 +52,7 @@
       <xs:element name="Password">
         <xs:simpleType>
             <xs:restriction base="xs:string">
-                <xs:pattern value="[Aa-zZ]{8}"></xs:pattern>
+                <xs:pattern value="[A-aZ-z]{8}"></xs:pattern>
             </xs:restriction>
         </xs:simpleType>
       </xs:element>
