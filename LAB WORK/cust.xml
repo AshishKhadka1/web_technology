@@ -5,22 +5,22 @@
     <bank>
   <customer>
     <customerId>001</customerId>
-    <name>Anthony Mackie</name>
-    <address>ABC main street</address>
+    <name>Ashish khadka</name>
+    <address>Biratchowk</address>
   </customer>
   <account>
-    <accountId>2314</accountId>
-    <branchId>27</branchId>
+    <accountId>1010</accountId>
+    <branchId>10</branchId>
     <CustomerId>001</CustomerId>
     <accountType>Savings</accountType>
     <balance>50000.00</balance>
   </account>
   <employee>
-    <empId>2014</empId>
-    <name>Chris Hemsworth</name>
+    <empId>0101</empId>
+    <name>Prasanga pokharel</name>
     <designation>Manager</designation>
     <DOJ>2023-01-15</DOJ>
     <salary>75000.00</salary>
-    <address>Treven street</address>
+    <address>Inarwa</address>
   </employee>
 </bank>
