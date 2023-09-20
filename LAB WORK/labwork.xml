@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="labwork.xsl"?>
+<employee>
+    <emp>
+        <firstname>Ashish</firstname>
+        <lastname>Khadka</lastname>
+        <department>HR</department>
+        <job-title>bank</job-title>
+        <salary>5550000</salary>
+        <email>khadkaashish50@gmail.com</email>
+    </emp>
+   <emp>
+        <firstname>Anish</firstname>
+        <lastname>Khadka</lastname>
+        <department>Manager</department>
+        <job-title>bank</job-title>
+        <salary>550000</salary>
+        <email>khadkaashish50@gmail.com</email>
+    </emp>
+   <emp>
+        <firstname>Rakesh</firstname>
+        <lastname>Khadka</lastname>
+        <department>staff</department>
+        <job-title>bank</job-title>
+        <salary>50000</salary>
+        <email>khadkaashish50@gmail.com</email>
+    </emp>
+     <emp>
+        <firstname>Rabin</firstname>
+        <lastname>Khadka</lastname>
+        <department>Worker</department>
+        <job-title>bank</job-title>
+        <salary>5000</salary>
+        <email>khadkaashish50@gmail.com</email>
+    </emp>
+</employee>

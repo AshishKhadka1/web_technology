@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="new.xsl"?>
+<person>
+    <user>
+        <firstname>Ashish</firstname>
+        <lastname>Khadka</lastname>
+        <address>morang</address>
+        <post>manager</post>
+        <salary>50000</salary>
+        <email>khadkaashish50@gmail.com</email>
+    </user>
+   <user>
+        <firstname>Anish</firstname>
+        <lastname>Khadka</lastname>
+        <address>morang</address>
+        <post>manager</post>
+        <salary>50000</salary>
+        <email>khadkaashish50@gmail.com</email>
+    </user>
+   <user>
+        <firstname>Rakesh</firstname>
+        <lastname>Khadka</lastname>
+        <address>morang</address>
+        <post>manager</post>
+        <salary>50000</salary>
+        <email>khadkaashish50@gmail.com</email>
+    </user>
+     <user>
+        <firstname>Rabin</firstname>
+        <lastname>Khadka</lastname>
+        <address>morang</address>
+        <post>manager</post>
+        <salary>50000</salary>
+        <email>khadkaashish50@gmail.com</email>
+    </user>
+    <user>
+        <firstname>sonam</firstname>
+        <lastname>Khadka</lastname>
+        <address>morang</address>
+        <post>manager</post>
+        <salary>50000</salary>
+        <email>khadkaashish50@gmail.com</email>
+    </user>
+</person>
