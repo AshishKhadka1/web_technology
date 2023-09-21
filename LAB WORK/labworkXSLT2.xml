@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="labworkXSLT2.xsl"?>
+<products>
+  <product>
+    <productname>Product A</productname>
+    <category>Electronics</category>
+    <price>50</price>
+    <quantity>5</quantity>
+  </product>
+  <product>
+    <productname>Product B</productname>
+    <category>Clothing</category>
+    <price>30</price>
+    <quantity>15</quantity>
+  </product>
+  <product>
+    <productname>Product C</productname>
+    <category>Electronics</category>
+    <price>80</price>
+    <quantity>12</quantity>
+  </product>
+
+</products>
