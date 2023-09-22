@@ -1,0 +1,23 @@
+<?xml-stylesheet type = "text/xsl" href = "data.xsl"?>
+<data>
+    <DataFor name = "Student" id= "001">
+        <firstName>Ashish</firstName>
+        <SecondName>Khadka</SecondName>
+        <course>40040</course>
+    </DataFor>
+    <DataFor name = "Student" id = "002">
+        <firstName>Kshitiz</firstName>
+        <lastName>Niroula</lastName>
+        <course>0202</course>
+    </DataFor>
+    <DataFor name = "Teacher" id = "003">
+        <firstName>Bishnu</firstName>
+        <LastName>limbu</LastName>
+        <Salary>5050</Salary>
+    </DataFor>
+    <DataFor name = "Teacher" id = "004">
+        <firstName>Roshan</firstName>
+        <lastName>limbu</lastName>
+        <salary>2505</salary>
+    </DataFor>
+</data>
