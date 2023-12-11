@@ -20,3 +20,9 @@
         case "default":
             console.log("x is invalid")
         }
+
+        //for loops
+
+    for( let i=10; i<=13; i++){
+        console.log(i)
+    }

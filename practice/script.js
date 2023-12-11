@@ -21,6 +21,20 @@ let b = u|v
 console.log(b)
 
 // 4.
-
+let num = prompt("enter a number");
+if(num%2==0){
+    console.log("Even number")
+}
+else{
+    console.log("odd number")
+}
+//5.
+let marks = prompt("enter a number")
+if(marks>=50){
+    console.log("A+")
+}
+else{
+    console.log()
+}
 
 
