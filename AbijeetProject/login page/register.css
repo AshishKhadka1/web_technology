@@ -1,1 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    /* view width */
+    /* vh = view height */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.split {
+    width: 50vw;
+    height: 100vh;
+    display: flex; /* by default it changes the .split items in row */
+    justify-content: center; /* targets the width */
+    align-items: center; /* targets the height */
+}
+
+.image-section img {
+    height: 100vh;
+}
+
+
+/* text content */
+.centered {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.centered h1{
+    text-align: center;
+}
+
+.centered form label {
+    margin: .7rem 0;
+    /* margin: up and down - left and right */
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+
+}
+
+.detail label input,
+.detail label div input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid green;
+    width: 100%;
+}
+
+
+.detail button{
+    padding: .5rem 0;
+    /* padding: 0.5rem 0 0.5rem 0;  */
+    /* padding: up right bottom left;  */
+
+    background: green;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+/* sociak media button links */
+.link {
+    display: flex;
+    justify-content: space-around; 
+}
+
+
+
+
+/* flex introduction */
+/* .boxes {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    by default converts column items in row 
+
+    align-items: start;
+    justify-content: space-evenly;
+}
+.boxes div{
+    height: 10vh;
+    width: 10vh;
+    margin: 2px;
+    background-color: red;
+} */

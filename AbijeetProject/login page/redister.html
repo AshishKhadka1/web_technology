@@ -14,33 +14,41 @@
             <div class="centered">
 
                 <h1>Register</h1>
-                <div class="detail">
-                    <label><input class="input-tag" type="text" id="name" name="name" placeholder="Name"></label>
-                    <label><input class="input-tag" type="text" id="name" required="E-mail"
-                            placeholder="E-mail"></label>
+                <form class="detail"> 
+                    <!-- from tag ads the rule concerns at certain level 
+                        eg: type="email" should always ends with @anything.com -->
                     <label>
+                        <input class="input-tag" type="text" id="name" name="name" placeholder="Name">
+                    </label>
 
+                    <label>
+                        <input class="input-tag" type="email" id="email" required="E-mail" placeholder="E-mail">
+                    </label>
+
+                    <label>
                         <div>
-                            <input class="input-tag" type="text" id="name" required="password" placeholder="password">
+                            <input class="input-tag" type="password" id="name" required="password" placeholder="password">
                         </div>
                         <div class="">
                             <a href="/forgetpassword">forget password?</a>
                         </div>
                     </label>
 
-                    <label><input class="input-tag" type="text" id="name" required="password"
-                            placeholder="password confirm"></label>
+                    <label>
+                        <input class="input-tag" type="password" id="name" required="password"
+                            placeholder="password confirm">
+                    </label>
 
-                    <button class="submit">submit</button>
+                    <button type="submit" class="submit">submit</button>
 
-                </div>
-                <hr>
+                </form>
+                <!-- <hr> -->
 
                 <!-- logo -->
                 <div class="link">
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
+                    <div> <i class="fa-brands fa-twitter"></i></div>
+                    <div> <i class="fa-brands fa-facebook-f"></i></div>
+                    <div> <i class="fa-brands fa-instagram"></i></div>
                 </div>
             </div>
         </div>
@@ -50,11 +58,19 @@
 
                 <!-- for image -->
                 <div class="image-section">
-                    <img src="#" alt="#">
+                    <img src="a.jpg" alt="#">
                 </div>
             </div>
         </div>
     </div>
+
+
+    <!-- flex introduction -->
+    <!-- <div class="boxes">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div> -->
     <script src="https://kit.fontawesome.com/cecde9af7c.js" crossorigin="anonymous"></script>
 </body>
 
