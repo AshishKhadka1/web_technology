@@ -11,7 +11,7 @@
 // console.log(str.slice(6));
 
 // push element in array
-const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
 // arr.push(4);
 // arr.pop(4);
 // console.log(arr);
@@ -89,6 +89,16 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8];
 // }
 
 // difference between const and let
-const one = 1;
-one = 2;
-console.log(one);
+// const one = 1;
+// one = 2;
+// console.log(one);
+
+let arr = [1, 2, 3, 4, 3, 5, 3]
+let num = 3
+
+for (let i = 0; i < arr.length; i++){
+  if (arr[i] == num){
+    arr.splice(i, 1)
+  }
+}
+console.log(arr);
